@@ -3,9 +3,8 @@
 # version: 1.0.3
 # author: Rodrigo Navarro
 
+require 'omniauth-openid'
 require 'multi_json'
-
-gem specific_install https://github.com/Mbond65/omniauth-openid.git 
 
 module OmniAuth
   module Strategies
