@@ -13,7 +13,7 @@ module OmniAuth
 
       option :api_key, nil
       option :name, "steam"
-      option :identifier, "http://steamcommunity.com/openid"
+      option :identifier, "http://steamcommunity.com/openid?openid.return_to=https://forums.dystopia-gaming.com"
       option :return_to, "https://forums.dystopia-gaming.com"
       
       uid { steam_id }
